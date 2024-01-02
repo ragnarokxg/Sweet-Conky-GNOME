@@ -74,10 +74,10 @@ ${goto 10}CPU Temp:${color6}${alignr 10}${exec sensors | grep 'CPU' | awk 'NR==1
 #-------------------------------------------------------------------------------------------------------------------------------
 #                                                   Cores
 #-------------------------------------------------------------------------------------------------------------------------------
-${color}${goto 10}Core 1: ${color6}${freq_g 1}GHz ${alignr 10}${cpu cpu0}% ${color1}${cpugraph cpu0 8,120 fc8c3b c6396b -t}
-${color}${goto 10}Core 2: ${color6}${freq_g 2}GHz ${alignr 10}${cpu cpu1}% ${color1}${cpugraph cpu1 8,120 fc8c3b c6396b -t}
-${color}${goto 10}Core 3: ${color6}${freq_g 3}GHz ${alignr 10}${cpu cpu2}% ${color1}${cpugraph cpu2 8,120 fc8c3b c6396b -t}
-${color}${goto 10}Core 4: ${color6}${freq_g 4}GHz ${alignr 10}${cpu cpu3}% ${color1}${cpugraph cpu3 8,120 fc8c3b c6396b -t}
+${color}${goto 10}Core 1: ${color6}${freq_g 1}GHz ${alignr 10}${cpu cpu1}% ${color1}${cpugraph cpu1 8,120 fc8c3b c6396b -t}
+${color}${goto 10}Core 2: ${color6}${freq_g 2}GHz ${alignr 10}${cpu cpu2}% ${color1}${cpugraph cpu2 8,120 fc8c3b c6396b -t}
+${color}${goto 10}Core 3: ${color6}${freq_g 3}GHz ${alignr 10}${cpu cpu3}% ${color1}${cpugraph cpu3 8,120 fc8c3b c6396b -t}
+${color}${goto 10}Core 4: ${color6}${freq_g 4}GHz ${alignr 10}${cpu cpu4}% ${color1}${cpugraph cpu4 8,120 fc8c3b c6396b -t}
 
 #-------------------------------------------------------------------------------------------------------------------------------
 #                                                   GPU
